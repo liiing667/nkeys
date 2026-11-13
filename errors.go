@@ -30,6 +30,7 @@ const (
 	ErrNoSeedFound              = nkeysError("nkeys: no nkey seed found")
 	ErrInvalidNkeySeed          = nkeysError("nkeys: doesn't contain a seed nkey")
 	ErrInvalidUserSeed          = nkeysError("nkeys: doesn't contain an user seed nkey")
+	ErrInvalidCredentials       = nkeysError("nkeys: invalid credentials file")
 	ErrInvalidRecipient         = nkeysError("nkeys: not a valid recipient public curve key")
 	ErrInvalidSender            = nkeysError("nkeys: not a valid sender public curve key")
 	ErrInvalidCurveKey          = nkeysError("nkeys: not a valid curve key")
